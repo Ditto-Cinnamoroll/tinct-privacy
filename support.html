@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tinct — Support</title>
+  <style>
+    :root {
+      --bg: #fbf8f2;
+      --ink: #2a2620;
+      --muted: #5b5448;
+      --accent: #6b4a3a;
+      --border: #e6dfd1;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Segoe UI", system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 48px 24px 96px;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-family: "New York", "Times New Roman", serif;
+      font-weight: 600;
+      font-size: 36px;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    .tagline {
+      color: var(--muted);
+      font-style: italic;
+      margin: 0 0 36px;
+    }
+    h2 {
+      font-family: "New York", "Times New Roman", serif;
+      font-weight: 600;
+      font-size: 22px;
+      margin: 40px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    p, li { font-size: 16px; }
+    a { color: var(--accent); }
+    .email {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: "SF Mono", Menlo, monospace;
+      font-size: 15px;
+      margin: 4px 0 8px;
+    }
+    details {
+      margin: 8px 0;
+      padding: 12px 16px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+    }
+    details[open] summary { margin-bottom: 8px; }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Tinct — Support</h1>
+    <p class="tagline">Mix, measure, remember.</p>
+
+    <h2>Contact</h2>
+    <p>For bug reports, feature requests, or any questions, please email:</p>
+    <p><a class="email" href="mailto:smallpaper.studio@gmail.com">smallpaper.studio@gmail.com</a></p>
+    <p>I read every message. Typical reply within 2 business days.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary>Where are my recipes stored?</summary>
+      <p>All recipes live on your device. There are no servers, no accounts, no cloud sync in v1.0. If iCloud Backup is enabled on your iPhone, your recipes are included automatically and will restore when you set up a new phone.</p>
+    </details>
+
+    <details>
+      <summary>How do I move my recipes to a new device?</summary>
+      <p>Open the library, tap the <strong>•••</strong> menu, choose <strong>Export library</strong>. Save the JSON file somewhere you trust (Files, iCloud Drive, etc.). On the new device, open the same menu and choose <strong>Import library</strong>.</p>
+    </details>
+
+    <details>
+      <summary>Will there be iPad / Mac support?</summary>
+      <p>iPad support is on the v1.1 roadmap. Mac support via Mac Catalyst is being evaluated based on community demand.</p>
+    </details>
+
+    <details>
+      <summary>Will there be Japanese / German localization?</summary>
+      <p>Yes — full Japanese and German localizations are planned for v1.1. v1.0 ships in English to keep the first release tight.</p>
+    </details>
+
+    <details>
+      <summary>How does the ratio calculator handle drops vs. grams vs. mL?</summary>
+      <p>Inside a single recipe, all ingredients use the same unit (drops, grams, or milliliters). The unit toggle at the top switches all rows at once. Cross-unit conversion (e.g., "5 drops = 0.25 g") is not currently supported because drop size varies by nib and ink viscosity.</p>
+    </details>
+
+    <details>
+      <summary>I found a bug. What should I include in the email?</summary>
+      <p>Please include: (1) what you were doing, (2) what you expected to happen, (3) what actually happened, (4) iOS version and iPhone model. A screenshot helps a lot.</p>
+    </details>
+
+    <details>
+      <summary>Can I get a refund?</summary>
+      <p>Refunds are handled by Apple, not by the developer. Open the App Store app on your iPhone, tap your profile, choose <strong>Purchase History</strong>, find Tinct, and select <strong>Report a Problem</strong>.</p>
+    </details>
+
+    <h2>Privacy</h2>
+    <p>See the <a href="./">Privacy Policy</a>. Short version: Tinct collects nothing.</p>
+
+    <footer>
+      <p>Tinct is an indie release by SmallPaper. Built for the fountain pen community.</p>
+    </footer>
+  </main>
+</body>
+</html>
