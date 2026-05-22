@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Steep — Support</title>
+  <style>
+    :root {
+      --bg: #faf6ee;
+      --ink: #2a2622;
+      --muted: #5c544a;
+      --accent: #3f2415;
+      --border: #e6dfce;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, "SF Pro Text", "Helvetica Neue", "Segoe UI", system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 48px 24px 96px;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-family: "New York", "Times New Roman", serif;
+      font-weight: 600;
+      font-size: 36px;
+      margin: 0 0 8px;
+      letter-spacing: -0.01em;
+    }
+    .tagline {
+      color: var(--muted);
+      font-style: italic;
+      margin: 0 0 36px;
+    }
+    h2 {
+      font-family: "New York", "Times New Roman", serif;
+      font-weight: 600;
+      font-size: 22px;
+      margin: 40px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    p, li { font-size: 16px; }
+    a { color: var(--accent); }
+    .email {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: "SF Mono", Menlo, monospace;
+      font-size: 15px;
+      margin: 4px 0 8px;
+    }
+    details {
+      margin: 8px 0;
+      padding: 12px 16px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+    }
+    details[open] summary { margin-bottom: 8px; }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Steep</h1>
+  <p class="tagline">The ceremony of time.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, bug reports, or feature requests:</p>
+  <p><span class="email">smallpaper.studio@gmail.com</span></p>
+  <p>I read every email. Response within 1–3 days, often sooner.</p>
+
+  <h2>Frequently asked questions</h2>
+
+  <details>
+    <summary>How do I add my own tea preset?</summary>
+    <p>Tap the <strong>≡</strong> button (top left) to open Presets, then the <strong>+</strong> in the top right. Enter a name, base steep time, per-round increment, and accent color (sheng / shou / oolong).</p>
+  </details>
+
+  <details>
+    <summary>What does "per-round increment" mean?</summary>
+    <p>Each round steeps longer than the previous one. Round 1 = base, Round 2 = base + increment, Round 3 = base + 2×increment, and so on. For Gushu Sheng (10s base, +5s) that's 10s, 15s, 20s, 25s… exactly how gongfu cha is brewed.</p>
+  </details>
+
+  <details>
+    <summary>Why is there no sound when a round ends?</summary>
+    <p>By design. Gongfu cha is a quiet practice — alarm sounds break the ceremony. Steep uses haptic feedback only (Soft / Medium / Strong, adjustable in Settings). On iPhone the buzz is enough to notice without disrupting the session.</p>
+  </details>
+
+  <details>
+    <summary>Can I switch between gaiwan and yixing?</summary>
+    <p>Yes. Tap <strong>⚙</strong> (top right) → <strong>Vessel</strong> → toggle between Gaiwan and Yixing. The illustration on the main screen switches immediately.</p>
+  </details>
+
+  <details>
+    <summary>What happens if I pause and come back later?</summary>
+    <p>Pause holds the exact time you stopped at, down to sub-second precision. Resume picks up where you left off. The timer also accounts for app backgrounding — the wall-clock deadline is preserved.</p>
+  </details>
+
+  <details>
+    <summary>Why does the tea color fade in later rounds?</summary>
+    <p>Real gongfu cha leaves give their peak in rounds 1–3, then gradually retire. Steep models this curve: round 7+ fills more faintly than round 1, and the cup lineup at the bottom of the screen reflects each round's actual extraction strength.</p>
+  </details>
+
+  <details>
+    <summary>Does Steep work offline?</summary>
+    <p>Yes — fully. Steep makes no network calls of any kind. All presets and settings are stored on your device only.</p>
+  </details>
+
+  <details>
+    <summary>Where is my data stored?</summary>
+    <p>On your device, in iOS UserDefaults. Steep does not transmit, sync, or share any data. iCloud Backup (if you have it on) will include your presets automatically through Apple's standard backup mechanism. We never see anything.</p>
+  </details>
+
+  <details>
+    <summary>What about Apple Watch / iPad?</summary>
+    <p>v1.0 is iPhone-only. iPad universal and an Apple Watch companion (haptic-only) are planned for v1.1 and v1.2.</p>
+  </details>
+
+  <details>
+    <summary>Will Steep be localized?</summary>
+    <p>v1.1 will add Simplified Chinese, Traditional Chinese, and Japanese for the core Asian tea markets. v1.0 is English only.</p>
+  </details>
+
+  <h2>Privacy</h2>
+  <p>Read the full <a href="./">Privacy Policy</a>. The short version: we collect nothing.</p>
+
+  <footer>
+    <p>Steep is made by <strong>SmallPaper</strong> — the studio behind <a href="https://apps.apple.com/us/app/tinct-ink-recipes/">Tinct</a>.</p>
+    <p>Last updated: 2026-05-22</p>
+  </footer>
+</main>
+</body>
+</html>
