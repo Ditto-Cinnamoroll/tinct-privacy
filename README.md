@@ -1,12 +1,13 @@
 # SmallPaper Studio — Privacy Policy
 
-Last updated: 2026-05-22
+Last updated: 2026-05-27
 
 This page covers all apps published under SmallPaper studio
 (Apple Developer team **HWAJIN OH**):
 
 - **Tinct: Ink Recipes**
 - **Steep: Gongfu Cha Timer**
+- **Septem: Hajj Counter** (iPhone + Apple Watch)
 
 The policy is the same for every app under SmallPaper:
 **we collect nothing.**
@@ -15,9 +16,10 @@ The policy is the same for every app under SmallPaper:
 Nothing. Our apps do not collect, transmit, or share any user data.
 
 ## Where your data lives
-Your data — ink recipes (Tinct), tea presets (Steep) — is stored
-locally on your device using iOS UserDefaults. It is included in
-your device's iCloud Backup if you have it enabled, which is fully
+Your data — ink recipes (Tinct), tea presets (Steep), and Tawaf / Sa'i
+counter state plus haptic and dua preferences (Septem) — is stored
+locally on your device using iOS / watchOS UserDefaults. It is included
+in your device's iCloud Backup if you have it enabled, which is fully
 controlled by Apple and your device settings.
 
 ## Photos (Tinct only)
@@ -36,6 +38,7 @@ collect any data from anyone, including children.
 ## Per-app support pages
 - [Tinct support](./support.html)
 - [Steep support](./steep-support.html)
+- [Septem support](./septem-support.html)
 
 ## Contact
 Questions? Email **smallpaper.studio@gmail.com**.
