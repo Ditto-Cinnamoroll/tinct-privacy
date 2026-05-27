@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Septem — Support</title>
+<style>
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #F2EDE2;
+    color: #1A1612;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+    line-height: 1.55;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 8px;
+  }
+  .tagline {
+    color: #5C544A;
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 32px 0 8px;
+    color: #1A1612;
+  }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 18px; }
+  a { color: #8B6914; }
+  .contact {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid #D9CFBC;
+  }
+  .email {
+    font-family: 'SF Mono', Consolas, monospace;
+    background: rgba(26, 22, 18, 0.06);
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    color: #1A1612;
+  }
+  .footer {
+    margin-top: 64px;
+    color: #8A8079;
+    font-size: 13px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<h1>Septem — Support</h1>
+<p class="tagline">Seven, kept by your hand.</p>
+
+<h2>What is Septem?</h2>
+<p>Septem is a silent counter for the two seven-segment rituals of Hajj and
+Umrah — Tawaf (seven circuits around the Kaaba) and Sa'i (seven segments
+between Safa and Marwa). Tap anywhere, feel the haptic, look up at the
+Kaaba — not the screen.</p>
+
+<h2>How do I count?</h2>
+<ul>
+  <li>Tap anywhere on the screen — the count advances by one.</li>
+  <li>A soft haptic confirms each tap.</li>
+  <li>At seven, a stronger three-pulse haptic and a "Complete" view tell
+  you the round is done.</li>
+</ul>
+
+<h2>How do I switch between Tawaf and Sa'i?</h2>
+<p>Use the two chips at the top of the screen. The active mode is filled in
+Kiswah black; the other sits beside it as a chip. Each mode keeps its own
+count, so switching back and forth doesn't lose your place.</p>
+
+<h2>What if I tap by accident?</h2>
+<p>Tap <strong>Undo</strong> at the bottom-left to revert the most recent
+count. Only the last tap can be undone — once you advance again, the
+previous tap is committed.</p>
+
+<h2>How do I reset?</h2>
+<p>Hold the <strong>Hold to reset</strong> capsule at the bottom-right for
+about 0.8 seconds. A gold fill shows the progress; release before it
+completes to cancel. This long-press requirement prevents accidental
+resets from a brushed screen.</p>
+
+<h2>Why no sound?</h2>
+<p>Septem never plays audio — not at taps, not at completion. Alarm sounds
+and chimes are inappropriate in the Mataf and break both the focus and
+the dignity of the ritual. The haptic confirms the count silently.</p>
+
+<h2>I'm a light tapper — can I adjust the haptic strength?</h2>
+<p>Yes. Open <strong>Settings</strong> (gear icon, top-right) → <strong>
+Haptic</strong> → choose <strong>Soft</strong>, <strong>Medium</strong>,
+or <strong>Strong</strong>. The setting applies to both per-tap feedback
+and the seven-completion pulse.</p>
+
+<h2>How do I turn off the dua line?</h2>
+<p>Open <strong>Settings</strong> → <strong>Dua</strong> → toggle
+<strong>Show dua line</strong> off. The screen becomes fully minimal — only
+the mode label, the counter, the seven-dot indicator, and the controls.</p>
+
+<h2>Does Septem work offline?</h2>
+<p>Always. Septem makes no network calls of any kind — for any feature.
+Your count, settings, and mode all live on your device, in iOS
+UserDefaults. The Mataf has notoriously weak connectivity; Septem is
+built to never need it.</p>
+
+<h2>Does Septem collect any data?</h2>
+<p>No. No accounts, no servers, no analytics, no third-party services.
+See the <a href="https://ditto-cinnamoroll.github.io/tinct-privacy/">SmallPaper
+Privacy Policy</a> — it applies to Septem, Tinct, and Steep equally.</p>
+
+<h2>What languages does Septem support?</h2>
+<p>v1.0 ships with <strong>English</strong> and <strong>Arabic</strong>,
+with full right-to-left layout in Arabic. <strong>Urdu</strong> and
+<strong>Malay</strong> are planned for v1.1 — we're holding them back
+until a native-speaker review pass is complete, because we'd rather ship
+no translation than a wrong one in a ritual context.</p>
+
+<h2>If you're a native Arabic, Urdu, or Malay speaker</h2>
+<p>We'd love your eyes on the strings. Email us — we'll send a promo code
+in thanks. If you spot anything off in the v1.0 Arabic, we'll patch in
+v1.0.1 within a week.</p>
+
+<h2>Is Septem affiliated with any Hajj operator or religious authority?</h2>
+<p>No. Septem is an indie app made by SmallPaper, a small studio. The
+seven-count is the consensus across all schools of Islamic
+jurisprudence (Hanafi, Shafi'i, Maliki, Hanbali, Ja'fari) — there is no
+sectarian variation, and the app does not branch on it. The dua line is
+the universally-recited "Bismillah" only, included as a brief on-screen
+marker, toggleable.</p>
+
+<h2>What's coming next?</h2>
+<ul>
+  <li><strong>v1.1</strong> — Urdu and Malay localizations, Apple Watch
+  (haptic from your wrist), dark mode, per-round dua selection.</li>
+  <li><strong>v1.2</strong> — iPad support, additional languages
+  (Turkish, Indonesian, Persian), optional Qibla direction (no location
+  permission — manual calibration).</li>
+</ul>
+
+<h2>The Pilgrim, DeenUp, Nusuk already do this. Why Septem?</h2>
+<p>Those apps are wonderful full Hajj suites — guides, bookings, dua sets,
+checklists. Septem is intentionally not that. If you only want a
+counter, Septem is one screen, one purpose, one quiet haptic. If you
+want the full guide, keep using your suite app of choice — Septem
+complements them.</p>
+
+<div class="contact">
+  <h2>Still stuck?</h2>
+  <p>Email us — we read everything.</p>
+  <p><a class="email" href="mailto:smallpaper.studio@gmail.com">smallpaper.studio@gmail.com</a></p>
+  <p>Septem is an indie release by SmallPaper. Built for Hajj and Umrah pilgrims.</p>
+</div>
+
+<p class="footer">© 2026 SmallPaper</p>
+
+</body>
+</html>
