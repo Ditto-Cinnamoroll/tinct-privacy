@@ -6,7 +6,6 @@ This page covers all apps published by **SmallPaper** on the
 Apple App Store and Google Play:
 
 - **Tinct: Ink Recipes** (iPhone, Android)
-- **Steep: Gongfu Cha Timer**
 - **Septem: Hajj Counter** (iPhone, Apple Watch, Android)
 
 The policy is the same for every app under SmallPaper:
@@ -16,10 +15,10 @@ The policy is the same for every app under SmallPaper:
 Nothing. Our apps do not collect, transmit, or share any user data.
 
 ## Where your data lives
-Your data — ink recipes (Tinct), tea presets (Steep), and Tawaf / Sa'i
-counter state plus haptic and dua preferences (Septem) — is stored
-locally on your device: in iOS / watchOS UserDefaults on Apple devices,
-and in the app's private storage on Android.
+Your data — ink recipes (Tinct) and Tawaf / Sa'i counter state plus
+haptic and dua preferences (Septem) — is stored locally on your device:
+in iOS / watchOS UserDefaults on Apple devices, and in the app's private
+storage on Android.
 
 It may be included in your device's backup — iCloud Backup on Apple
 devices, Android Backup on Android — if you have that enabled. Those
@@ -41,7 +40,6 @@ collect any data from anyone, including children.
 
 ## Per-app support pages
 - [Tinct support](./support.html)
-- [Steep support](./steep-support.html)
 - [Septem support](./septem-support.html)
 
 ## Contact
