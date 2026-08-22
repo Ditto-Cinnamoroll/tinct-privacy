@@ -1,6 +1,6 @@
 # SmallPaper Studio — Privacy Policy
 
-Last updated: 2026-08-21
+Last updated: 2026-08-22
 
 This page covers all apps published by **SmallPaper** on the
 Apple App Store and Google Play:
@@ -10,6 +10,7 @@ Apple App Store and Google Play:
 - **Verd — Calm Green Light** (Android)
 - **Fornax: Steel Heat Colors** (Android)
 - **Subula: Thread & Needle** (Android, iPhone)
+- **오늘의 도시락 — Today's Lunchbox** (Android)
 
 The policy is the same for every app under SmallPaper:
 **we collect nothing.**
@@ -21,7 +22,9 @@ Nothing. Our apps do not collect, transmit, or share any user data.
 Your data — ink recipes (Tinct), Tawaf / Sa'i counter state plus haptic
 and dua preferences (Septem), brightness and eyes-closed settings (Verd),
 the °C / °F choice (Fornax), and the last leather thickness, unit, project
-type and machine thread limit (Subula) — is stored locally on your device: in
+type and machine thread limit (Subula), and the week you are on, the
+lunchbox skins you have unlocked, your best score and the sound
+on/off setting (오늘의 도시락) — is stored locally on your device: in
 iOS / watchOS UserDefaults on Apple devices, and in the app's private
 storage on Android.
 
